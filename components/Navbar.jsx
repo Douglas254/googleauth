@@ -9,8 +9,11 @@ const Navbar = () => {
   console.log(status);
   return (
     <div className="p-4 flex justify-between items-center shadow-md">
-      <Link href={"/"} className="font-bold text-lg text-blue-700">
+      <Link href={"/"} className="font-bold text-3xl text-zinc-700 font-vibes">
         Douglas
+        <span className="text-[#BB0000]">2</span>
+        <span className="text-[#000000]">5</span>
+        <span className="text-[#006600]">4</span>
       </Link>
 
       {status === "authenticated" ? (
